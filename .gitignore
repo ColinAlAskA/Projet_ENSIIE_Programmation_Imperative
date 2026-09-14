@@ -1,0 +1,9 @@
+*.o
+/exec
+/projet_ppm
+*.tgz
+.vscode/
+
+# Temporary editor files
+*~
+.DS_Store
