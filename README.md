@@ -1,6 +1,7 @@
 # Interpréteur graphique PPM
 
-Projet de programmation en C réalisé en première année à l'ENSIIE.
+Projet de programmation impérative réalisé en première année à l'ENSIIE.
+Note finale : **17/20**
 
 ## Description
 
@@ -14,7 +15,7 @@ La machine interprétée gère notamment :
 - le remplissage de zones ;
 - les rotations et les retours aux bords de l'image.
 
-Le résultat obtenu est fonctionnel et produit des rendus très proches des résultats attendus. Une légère différence de couleur peut toutefois apparaître sur certains cas.
+Le résultat obtenu est fonctionnel et produit des rendus très proches des résultats attendus. Il y a juste une très légère différence de couleur qui peut arriver sur certaines images. Je n'ai malheureusement pas réussi à corriger cela avant le rendu du projet.
 
 ## Architecture
 
@@ -31,7 +32,6 @@ Le projet est organisé autour de plusieurs modules C :
 ## Prérequis
 
 - un compilateur C compatible avec GCC ;
-- `make` ;
 - un logiciel capable d'ouvrir les images PPM pour visualiser les résultats.
 
 ## Compilation
@@ -43,12 +43,6 @@ make
 ```
 
 L'exécutable `projet_ppm` est alors généré.
-
-Pour supprimer les fichiers objets produits pendant la compilation :
-
-```sh
-make clean
-```
 
 ## Utilisation
 
@@ -74,7 +68,7 @@ Le programme accepte aussi un seul fichier d'entrée et écrit alors l'image PPM
 
 ## Format de sortie
 
-Les images générées utilisent le format PPM binaire `P6`, avec une valeur maximale de composante de couleur égale à `255`.
+Les images générées utilisent le format PPM binaire `P6`.
 
 ## Organisation du depot
 
@@ -88,12 +82,6 @@ Les images générées utilisent le format PPM binaire `P6`, avec une valeur max
 └── Coerchon_Colin_Rapport.pdf
 ```
 
-Les fichiers générés par la compilation, les exécutables, les archives et les réglages locaux de VS Code sont ignorés par Git. Voir `.gitignore`.
-
-## Contexte pedagogique
-
-Ce projet a été réalisé dans le cadre du cours de programmation de première année à l'ENSIIE. Il met en pratique la programmation en C, la gestion dynamique de la mémoire, les listes chaînées, les piles et la décomposition d'un programme en modules.
-
 ## Auteur
 
-Colin Coerchon - ENSIIE, première année
+Colin Coërchon - ENSIIE, première année
