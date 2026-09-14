@@ -1,5 +1,3 @@
-# Interpréteur graphique PPM
-
 Projet de programmation impérative réalisé en première année à l'ENSIIE.
 Note finale : **17/20**
 
@@ -69,6 +67,10 @@ Le programme accepte aussi un seul fichier d'entrée et écrit alors l'image PPM
 ## Format de sortie
 
 Les images générées utilisent le format PPM binaire `P6`.
+
+Un exemple : 
+
+<img width="600" height="600" alt="best" src="https://github.com/user-attachments/assets/c3b12c70-521d-43db-bddc-f5288535f255" />
 
 ## Organisation du depot
 
